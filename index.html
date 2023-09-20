@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Goethesanis Website</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Goethesanis Tester</h1>
+        <hr>
+    </div>
+    <div id="body">
+        <div id="selector">
+            <div id="dif-wrapper">
+                <h3>Schwierigkeitsgrad</h3>
+                <input type="radio" name="difficulty" id="easy" value="Einfach"> <label for="easy">Einfach</label> <br>
+                <input type="radio" name="difficulty" id="medium" value="Mittel"> <label for="medium">Mittel</label>  <br>
+                <input type="radio" name="difficulty" id="hard" value="Schwer"> <label for="hard">Schwer</label> <br>
+                <button id="submit">Generieren</button>
+            </div>
+            <div id="out">
+                <h3>Szenario</h3>
+                <span class="h">Verletzte: </span><span id="verletzte"></span><br>
+                <span class="h" id="h_1">Verletzung von Person 1: </span><span id="verletzungen_1"></span><br>
+                <span class="h" id="h_2">Verletzung von Person 2: </span><span id="verletzungen_2"></span><br>
+                <span class="h" id="h_3">Verletzung von Person 3: </span><span id="verletzungen_3"></span><br>
+                <span class="h" id="h_4">Verletzung von Person 4: </span><span id="verletzungen_4"></span><br>
+                <span class="h" id="h_5">Verletzung von Person 5: </span><span id="verletzungen_5"></span><br>
+                <span class="h" id="h_6">Verletzung von Person 6: </span><span id="verletzungen_6"></span><br>
+                <span class="h">Sanis: </span><span id="sanis"></span><br>
+                <span class="h">Material: </span><span id="material"></span><br>
+                <span class="h">Handicap 1: </span><span id="handicap_0"></span><br>
+                <span class="h">Handicap 2: </span><span id="handicap_1"></span><br>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>

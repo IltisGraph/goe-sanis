@@ -7,6 +7,10 @@
     width: 100%;
 }
 
+button {
+    margin-bottom: 10px;
+}
+
 .w-div {
     width: 80%;
     margin: auto;
@@ -14,7 +18,7 @@
     border: 3px solid black;
     margin-top: 30px;
     min-height: 200px;
-    text-align: center;
+    text-align: left;
 }
 
 #material {
@@ -24,3 +28,19 @@
     margin-top: 15px;
     border-radius: 6px;
 }
+
+#verletzungen-add {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+#medium, #hard, #easy, #verletzungen-add, #handicap-add {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+
+

@@ -46,13 +46,13 @@ get(child(ref(db), "handicap")).then((snapshot) => {
     if (!snapshot.exists()) {
         window.alert("Etwas stimmt mit der Datenbank nicht!");
     }
-    fill("handicap", snapshot, "handicap")
+    fill("handicap-add", snapshot, "handicap")
 });
 get(child(ref(db), "verletzungen")).then((snapshot) => {
     if (!snapshot.exists()) {
         window.alert("Etwas stimmt mit der Datenbank nicht!");
     }
-    fill("verletzungen", snapshot, "verletzungen")
+    fill("verletzungen-add", snapshot, "verletzungen")
 });
 get(child(ref(db), "material/easy")).then((snapshot) => {
     if (!snapshot.exists()) {

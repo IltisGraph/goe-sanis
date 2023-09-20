@@ -1,0 +1,26 @@
+
+#header {
+    width: 100%;
+}
+
+#db-wrapper {
+    width: 100%;
+}
+
+.w-div {
+    width: 80%;
+    margin: auto;
+    border-radius: 12px;
+    border: 3px solid black;
+    margin-top: 30px;
+    min-height: 200px;
+    text-align: center;
+}
+
+#material {
+    min-height: 500px;
+}
+.add-b {
+    margin-top: 15px;
+    border-radius: 6px;
+}
